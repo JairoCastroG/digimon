@@ -14,8 +14,12 @@ public class Pokemonapp {
     /**
      * @param args the command line arguments
      */
+    
     public static void main(String[] args) {
-        System.out.println("hola");
+        pokemon p = new pokemon();
+        p.setNivel(100);
+        p.setNombre("raikuaza");
+        System.out.println(p.getNivel()+ p.getNombre());
     }
     
 }
