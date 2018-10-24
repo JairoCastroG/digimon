@@ -19,7 +19,10 @@ public class Pokemonapp {
         pokemon p = new pokemon();
         p.setNivel(100);
         p.setNombre("raikuaza");
+        pokebola d = new pokebola();
+        d.setTipo("electrico");
         System.out.println(p.getNivel()+ p.getNombre());
+        System.out.println(d.getTipo());
     }
     
 }
